@@ -1,0 +1,28 @@
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.row{
+    
+    display: inline-block;
+}
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.smallPosters{
+    max-height: 100px;
+    margin-right: 280;
+    cursor: pointer;
+}
+.poster:hover{
+    transform: scale(1.1);
+}
